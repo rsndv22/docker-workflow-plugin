@@ -62,6 +62,7 @@ import org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord;
 import org.jenkinsci.plugins.docker.commons.tools.DockerTool;
 import org.kohsuke.accmod.Restricted;
 import org.kohsuke.accmod.restrictions.NoExternalUse;
+import javax.annotation.Nonnull;
 
 /**
  * Simple docker client for Pipeline.

@@ -16,6 +16,7 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.annotation.Nonnull;
 
 public class WindowsDockerClient extends DockerClient {
     private static final Logger LOGGER = Logger.getLogger(WindowsDockerClient.class.getName());
